@@ -22,11 +22,15 @@ function funcB() {
 
 if (true) {
   let c = 1;
-  function funcD() {}
+  function funcD() {
+    console.log(funcD);
+  }
 }
 
 for (let i = 0; i < 10; i++) {
-  function funcF() {}
+  function funcF() {
+    console.log(funcF);
+  }
 }
 
 funcD(); //可能
